@@ -1,0 +1,331 @@
+.ant-drawer-title {
+    color: #000 !important;
+    font-family: Outfit !important;
+    font-size: 24px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: normal !important;
+}
+
+.coupan_area {
+
+    width: 484px;
+    height: 58px;
+    transform: rotate(-0.107deg);
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 0.5px solid #CFCFCF;
+    display: flex;
+
+
+
+    .copan_left {
+        display: flex;
+        align-items: center;
+        width: 80%;
+
+
+
+        p {
+            color: #000;
+            font-family: Outfit;
+            font-size: 19px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            padding-top: 14px;
+            padding-left: 20px;
+        }
+
+        svg {
+            margin-left: 30px;
+        }
+    }
+
+    .copan_right {
+        align-items: center;
+        width: 20%;
+        display: flex;
+    }
+
+    .copan_right button {
+        color: #FFF;
+        font-family: Outfit;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        border-radius: 0px 4px 4px 0px;
+        background: #000;
+        width: 107px;
+        height: 60px;
+        transform: rotate(-0.107deg);
+        flex-shrink: 0;
+    }
+
+
+
+}
+
+.cart-products {
+    display: flex;
+    padding: 10px;
+
+    .left_cart img {
+        width: 131px;
+        height: 134px;
+
+    }
+
+    .right_cart {
+        padding: 10px;
+    }
+
+    .right_cart h2 {
+        color: #000;
+        font-family: Outfit;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.522px;
+    }
+
+    .right_cart span {
+        color: #000;
+        font-family: Outfit;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.435px;
+    }
+
+}
+
+.coupan {
+    width: 495px;
+    height: 80px;
+    transform: rotate(-0.107deg);
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 0.5px solid #CFCFCF;
+    display: flex;
+
+
+    .left_Coupon {
+        display: flex;
+        align-items: center;
+
+
+    }
+
+    .right_Coupon {
+
+        padding: 15px 0px 0px 20px;
+
+
+
+        .ri_cou_span {
+            color: #000;
+            font-family: Outfit;
+            font-size: 19px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+
+
+        }
+
+        p {
+            color: #000;
+            font-family: Outfit;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+
+
+        }
+
+        ;
+    }
+
+}
+
+.prize_detail {
+
+    width: 495px;
+    height: 240px;
+    transform: rotate(-0.107deg);
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 0.5px solid #CFCFCF;
+    margin: 12px 0px 13px 0px;
+
+    h4 {
+        color: #000;
+        font-family: Outfit;
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        padding: 12px 0px 11px 12px;
+
+
+    }
+
+    .prize_dra {
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+
+
+        p {
+            color: #000;
+            font-family: Outfit;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            padding: 0px 25px 0px 25px;
+
+
+        }
+
+        .p_bold {
+            color: #000;
+            font-family: Outfit;
+            font-size: 19px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+    }
+
+
+
+
+}
+
+.reward_point_drawer {
+    width: 495px;
+    height: 67px;
+    transform: rotate(-0.107deg);
+    border-radius: 4px;
+    border: 0.5px solid #CFCFCF;
+
+
+    .reward_text_p {
+        padding-top: 9px;
+
+
+
+
+        p {
+            color: #000;
+            text-align: center;
+            font-family: Outfit;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-bottom: 6px;
+
+        }
+
+        .bold_p_reward {
+
+            color: #000;
+            text-align: center;
+            font-family: Outfit;
+            font-size: 19px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+
+
+
+
+    }
+
+}
+
+.proceed_drawer {
+    width: 495px;
+    height: 90px;
+    transform: rotate(-0.107deg);
+    border-radius: 4px;
+    border: 0.5px solid #CFCFCF;
+    background: #FFF;
+    box-shadow: 0px -1px 8.2px 1px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 12px;
+
+
+
+    .proceed_money {
+
+
+        p {
+            color: #000;
+            font-family: Outfit;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin: 7px 0px 0px 32px;
+
+
+
+        }
+
+        .bold_thousand {
+            color: #000;
+            font-family: Outfit;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            margin: 10px 0px 0px 30px;
+
+
+
+        }
+    }
+
+    .proceed_btn {
+        width: 191.571px;
+        height: 49px;
+        transform: rotate(0.107deg);
+        flex-shrink: 0;
+        background-color: #000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+        p {
+            color: #FFF;
+            font-family: Outfit;
+            font-size: 21px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            padding-top: 10px;
+            padding-right: 11px;
+
+
+        }
+
+
+
+    }
+
+
+}
